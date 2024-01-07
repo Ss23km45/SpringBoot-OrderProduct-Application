@@ -10,7 +10,7 @@
 //             "Accept": "application/json"
 //         }
 //     });
-
+//We have to call real time api
     // const mydata = await productData.json();
  const productData = [
     { price: 15000, productName: 'Redmi', quantity: 20, productId: 1111 },
