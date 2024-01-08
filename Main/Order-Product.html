@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<h3>Springboot OrderProduct Application</h3>
+    <link rel="stylesheet" href="Order-Product.css">
+<h3><span id="spaning"> Springboot OrderProduct Application</span> </h3> 
 </head>
 <body>
-    <!-- Finally Working -->
-<div id="header_div">
-    <h5>Click here to see Available products </h5>
-    <form method="POST">
-    <button type = "button" onclick = "myFunction()">Display</button>
-</form>
+<a href="Display-Product-Data.html">
+<div id="dpi">
+     <span> Display Product Information </span>
+</div> </a>
+<a href="Display-Payment-Data.html">
+<div id="dth">
+     <span> Display Transaction History </span>
+</div> </a>
+<a href="Display-Order-Data.html"> 
+<div id="dod">
+    <span> Display Order Details </span>
 </div>
-<div id="table_div">
-    <table id="product_Table">
-        <tr id="product_table_header">
-            <th>Product Price</th>
-            <th>Product Name</th>
-            <th>Available Stock</th>
-            <th>Product Id</th>
-        </tr>
-    </table>
-</div>
+</a>
 </body>
-<script type = "text/javascript" src="./Order-Product.js"></script>  
 </html>
